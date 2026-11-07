@@ -1,0 +1,480 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio profesional de Paula Alvarado, desarrolladora web con experiencia en frontend, CMS y accesibilidad, en formación en ciberseguridad.">
+  <meta name="theme-color" content="#101827">
+
+  <title>Paula Alvarado | Desarrollo web y seguridad</title>
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Paula Alvarado, inicio">
+        PA<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        Menú
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a class="nav-contact" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- PRESENTACIÓN PRINCIPAL -->
+    <section class="hero container" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          DESARROLLO WEB · APRENDIZAJE EN CIBERSEGURIDAD
+        </p>
+
+        <h1>
+          Creo experiencias web<br>
+          <span>útiles, accesibles y seguras.</span>
+        </h1>
+
+        <p class="hero-intro">
+          Soy desarrolladora web con experiencia en frontend, CMS y accesibilidad.
+          Actualmente amplío mis conocimientos en ciberseguridad para crear
+          aplicaciones web más seguras y mantenibles.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">
+            Ver proyectos <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="button button-secondary" href="#contacto">
+            Contactar
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="assets/Paula Alvarado Gisbert CV.pdf"
+            download="Paula Alvarado Gisbert CV.pdf"
+          >
+            Descargar CV <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <ul class="quick-facts" aria-label="Áreas profesionales">
+          <li>Frontend</li>
+          <li>CMS</li>
+          <li>Accesibilidad</li>
+          <li>Seguridad web</li>
+        </ul>
+      </div>
+
+      <aside class="hero-card" aria-label="Resumen profesional">
+        <div class="card-topline">
+          <span>PERFIL</span>
+          <span class="card-mark">PA.</span>
+        </div>
+
+        <div class="avatar-placeholder" aria-hidden="true">PA</div>
+
+        <h2>Desarrollo con propósito</h2>
+
+        <p>
+          Interfaces claras, código mantenible y atención a la seguridad
+          desde el diseño.
+        </p>
+
+        <div class="mini-tags">
+          <span>HTML · CSS · JS</span>
+          <span>Angular</span>
+          <span>PHP · Laravel</span>
+          <span>SQL</span>
+        </div>
+
+        <div class="card-bottom">
+          <span>Portfolio en construcción</span>
+          <span aria-hidden="true">↗</span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section container" id="proyectos">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TRABAJO Y PRÁCTICA</p>
+          <h2>Proyectos destacados</h2>
+        </div>
+
+        <p>
+          Una selección de proyectos profesionales y personales.
+          Se indica el estado de cada proyecto para diferenciar los trabajos
+          en desarrollo de las ideas futuras.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- PROYECTO 1: PORTFOLIO -->
+        <article class="project-card project-featured">
+          <div class="project-art art-code" aria-hidden="true">
+            <span class="code-window">
+              <i></i><i></i><i></i>
+              <b>&lt;web /&gt;</b>
+              <small>accessible · responsive · maintainable</small>
+            </span>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span>01 / WEB</span>
+              <span class="pill">En desarrollo</span>
+            </div>
+
+            <h3>Portfolio profesional</h3>
+
+            <p>
+              Mi espacio para presentar mi experiencia, mostrar proyectos
+              y compartir mi evolución como desarrolladora web.
+            </p>
+
+            <p class="stack">
+              HTML · CSS · JavaScript · Accesibilidad
+            </p>
+
+            <span class="project-note">
+              Proyecto personal · En desarrollo
+            </span>
+          </div>
+        </article>
+
+        <!-- PROYECTO 2: TASKSAFE -->
+        <article class="project-card">
+          <div class="project-art art-app" aria-hidden="true">
+            <div class="app-ui">
+              <span></span><span></span><span></span>
+              <div></div><div></div><div></div>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span>02 / FULL-STACK</span>
+              <span class="pill">Planificado</span>
+            </div>
+
+            <h3>TaskSafe</h3>
+
+            <p>
+              Idea de aplicación de gestión de tareas con usuarios,
+              permisos y validación segura de datos.
+            </p>
+
+            <p class="stack">
+              Angular · Laravel · MySQL
+            </p>
+
+            <span class="project-note">
+              Proyecto futuro · Pendiente de desarrollo
+            </span>
+          </div>
+        </article>
+
+        <!-- PROYECTO 3: WEBGUARD -->
+        <article class="project-card">
+          <div class="project-art art-security" aria-hidden="true">
+            <div class="shield-shape">✓</div>
+            <div class="scan-line"></div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span>03 / SEGURIDAD</span>
+              <span class="pill">Planificado</span>
+            </div>
+
+            <h3>WebGuard</h3>
+
+            <p>
+              Propuesta de laboratorio controlado para documentar
+              riesgos de aplicaciones web, evidencias y posibles correcciones.
+            </p>
+
+            <p class="stack">
+              OWASP · Pruebas controladas · Informes
+            </p>
+
+            <span class="project-note">
+              Proyecto formativo · Pendiente de desarrollo
+            </span>
+          </div>
+        </article>
+
+        <!-- PROYECTO 4: LOGWATCH -->
+        <article class="project-card">
+          <div class="project-art art-logs" aria-hidden="true">
+            <div class="log-lines">
+              <span>INFO&nbsp; request received</span>
+              <span>WARN&nbsp; repeated login attempt</span>
+              <span>INFO&nbsp; event recorded</span>
+              <span>ALERT suspicious pattern</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span>04 / LABORATORIO</span>
+              <span class="pill">Planificado</span>
+            </div>
+
+            <h3>LogWatch</h3>
+
+            <p>
+              Propuesta de práctica con registros ficticios para identificar
+              patrones sospechosos y documentar posibles alertas.
+            </p>
+
+            <p class="stack">
+              Linux · Logs · Análisis
+            </p>
+
+            <span class="project-note">
+              Proyecto futuro · Pendiente de desarrollo
+            </span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="about-section" id="sobre-mi">
+      <div class="container about-grid">
+
+        <div>
+          <p class="eyebrow">SOBRE MÍ</p>
+          <h2>
+            Base técnica.<br>
+            <span>Curiosidad constante.</span>
+          </h2>
+        </div>
+
+        <div class="about-copy">
+          <p>
+            Me formé en Desarrollo de Aplicaciones Web y trabajé como
+            desarrolladora web frontend en Ecityclic, en proyectos vinculados
+            al sector de la administración pública.
+          </p>
+
+          <p>
+            Mi experiencia incluye gestión de CMS, migración de contenido,
+            documentación para usuarios, comprobaciones de accesibilidad WCAG,
+            maquetación a partir de Figma y trabajo con herramientas de ticketing.
+          </p>
+
+          <p>
+            Actualmente estoy ampliando mi formación en ciberseguridad.
+            Mi objetivo es combinar el desarrollo web con buenas prácticas
+            de seguridad, sin dejar de aprender y mejorar.
+          </p>
+
+          <div class="skills-list" aria-label="Tecnologías y competencias">
+            <span>JavaScript</span>
+            <span>HTML / CSS</span>
+            <span>Angular</span>
+            <span>PHP / Laravel</span>
+            <span>SQL Server / MySQL</span>
+            <span>Plone / Volto</span>
+            <span>Liferay</span>
+            <span>Figma</span>
+            <span>WCAG</span>
+            <span>Mailchimp</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section class="section container" id="formacion">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FORMACIÓN</p>
+          <h2>Aprendizaje continuo</h2>
+        </div>
+
+        <p>
+          Estudios completados y formación actualmente en curso,
+          con el estado de cada etapa claramente identificado.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+
+          <div>
+            <div class="timeline-heading">
+              <h3>CFGS Desarrollo de Aplicaciones Web</h3>
+              <span class="pill pill-live">Completado</span>
+            </div>
+
+            <p class="muted">
+              Ilerna Lleida · Septiembre 2023 – mayo 2025
+            </p>
+
+            <p>
+              Formación en desarrollo web, bases de datos, programación,
+              interfaces y documentación técnica.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+
+          <div>
+            <div class="timeline-heading">
+              <h3>Programa de ciberseguridad</h3>
+              <span class="pill">En curso</span>
+            </div>
+
+            <p class="muted">
+              Bejob + IBM SkillsBuild
+            </p>
+
+            <p>
+              Programa formativo con microcredenciales y proyecto final.
+              Añadiré las credenciales concretas a medida que las complete.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot timeline-dot-future"></span>
+
+          <div>
+            <div class="timeline-heading">
+              <h3>Certificaciones de Google</h3>
+              <span class="pill">Planificado</span>
+            </div>
+
+            <p>
+              Formación pendiente de selección según mis objetivos profesionales
+              y presupuesto. No se presenta como una certificación obtenida.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact-section" id="contacto">
+      <div class="container contact-inner">
+
+        <div>
+          <p class="eyebrow">CONTACTO</p>
+
+          <h2>¿Hablamos de tecnología?</h2>
+
+          <p>
+            Estoy abierta a oportunidades junior relacionadas con desarrollo web
+            y a seguir creciendo en seguridad de aplicaciones.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a
+            class="button button-primary"
+            href="mailto:palvaradogisbert@gmail.com"
+          >
+            Enviar un correo <span aria-hidden="true">↗</span>
+          </a>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/palvaradogisbert"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar mi perfil de GitHub (se abre en una pestaña nueva)"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/paula-alvarado-gisbert-624240371/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar mi perfil de LinkedIn (se abre en una pestaña nueva)"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">
+        PA<span>.</span>
+      </a>
+
+      <p>
+        Diseñado y desarrollado por Paula Alvarado ·
+        <span id="year">2026</span>
+      </p>
+
+      <div class="footer-links">
+        <a
+          href="https://github.com/palvaradogisbert"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub (se abre en una pestaña nueva)"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/paula-alvarado-gisbert-624240371/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn (se abre en una pestaña nueva)"
+        >
+          LinkedIn
+        </a>
+
+        <a href="#inicio">Volver arriba ↑</a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
