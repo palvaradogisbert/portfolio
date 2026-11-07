@@ -1,40 +1,75 @@
-# Portfolio de Paula Alvarado
+# Portfolio de Paula Alvarado Gisbert
 
-Portfolio personal para presentar experiencia en desarrollo web, CMS, accesibilidad y formación progresiva en ciberseguridad.
+Portfolio profesional para presentar mi perfil como desarrolladora web junior, mis conocimientos en desarrollo frontend, CMS, accesibilidad web y mi formación progresiva en ciberseguridad.
 
-## Estado
-
-Primera versión de estructura y diseño. Los proyectos TaskSafe, WebGuard y LogWatch son ideas planificadas y no deben presentarse como proyectos terminados hasta que se implementen.
+🌐 **Portfolio online:** [Ver portfolio](https://palvaradogisbert.github.io/portfolio/)
 
 ## Tecnologías
 
-- HTML semántico
-- CSS responsive
-- JavaScript sin dependencias
-- Navegación móvil accesible
-- Preparado para publicar como sitio estático
+- HTML5 semántico.
+- CSS3 y diseño responsive.
+- JavaScript sin dependencias externas.
+- Navegación móvil accesible.
+- Git y GitHub Pages.
+
+## Características
+
+- Diseño adaptable a móvil, tablet y escritorio.
+- Estructura HTML semántica.
+- Navegación mediante teclado.
+- Indicadores de foco visibles.
+- Menú móvil accesible con teclado y cierre mediante Escape.
+- Adaptación a la preferencia de movimiento reducido.
+- CV profesional descargable en PDF.
+
+## Sobre mí
+
+Soy desarrolladora web junior, con formación en Desarrollo de Aplicaciones Web (DAW) y conocimientos en:
+
+- Desarrollo frontend: HTML, CSS y JavaScript.
+- Frameworks y desarrollo web: Angular y Laravel.
+- CMS y comercio electrónico: WordPress, Elementor y WooCommerce.
+- Bases de datos: MySQL y SQL Server.
+- Accesibilidad web y diseño centrado en el usuario.
+- Formación en ciberseguridad.
+
+## Proyectos
+
+El portfolio incluye propuestas de proyectos orientados al desarrollo web y la ciberseguridad.
+
+TaskSafe, WebGuard y LogWatch son ideas planificadas y no deben considerarse proyectos implementados hasta completar su desarrollo.
 
 ## Ejecutar en local
 
-Abre `index.html` en el navegador. Para desarrollo, puedes usar la extensión Live Server de Visual Studio Code, aunque no es obligatoria.
+1. Clona este repositorio.
+2. Abre la carpeta del proyecto en Visual Studio Code.
+3. Abre `index.html` directamente en el navegador o utiliza la extensión Live Server.
 
-## Publicar con GitHub Pages
+## Publicación
 
-1. Crea un repositorio público llamado `portfolio` en GitHub.
-2. Sube `index.html`, `styles.css`, `script.js` y `README.md` a la raíz.
-3. Abre **Settings → Pages**.
-4. En el origen de despliegue, selecciona la rama principal y la carpeta raíz (`/root` o `/(root)`, según la interfaz).
-5. Guarda y espera a que GitHub genere la URL publicada.
+El proyecto está publicado mediante GitHub Pages.
 
-## Antes de publicar
+La versión pública está disponible en:
 
-- Comprueba que los datos de contacto son correctos y que quieres hacerlos públicos.
-- Añade los enlaces reales a GitHub y LinkedIn cuando los tengas.
-- Añade un enlace al CV PDF solo si quieres compartirlo públicamente; revisa antes el teléfono, correo y otros datos personales.
-- Añade capturas y enlaces de demostración cuando existan.
-- No añadas código, capturas ni datos confidenciales de antiguos clientes.
-- Mantén la formación en curso separada de las certificaciones completadas.
+https://palvaradogisbert.github.io/portfolio/
 
-## Accesibilidad
+Para consultar o modificar la configuración de publicación:
 
-Incluye enlace para saltar al contenido, foco visible, estructura semántica, etiquetas de navegación y adaptación a la preferencia de movimiento reducido. Se recomienda comprobar el resultado manualmente con teclado y herramientas de auditoría.
+1. Accede a **Settings → Pages**.
+2. Comprueba la rama principal (`main`).
+3. Verifica que el directorio de publicación sea la raíz del repositorio.
+4. Guarda los cambios si modificas la configuración.
+
+## Buenas prácticas
+
+- Mantener los datos de contacto actualizados.
+- Comprobar periódicamente los enlaces y la descarga del CV.
+- Verificar la accesibilidad mediante teclado.
+- Mantener actualizada la documentación.
+- No publicar información confidencial de antiguos clientes.
+- Diferenciar siempre la formación en curso de las certificaciones completadas.
+
+---
+
+**Paula Alvarado Gisbert**  
+Desarrollo web | Frontend | CMS | Accesibilidad | Ciberseguridad
